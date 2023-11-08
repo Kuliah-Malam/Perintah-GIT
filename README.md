@@ -1,18 +1,15 @@
 # Perintah Git
-============
 
 _List Pertintah Github Yang Biasa Di Gunakan_
 
---
-
-### Getting & Creating Projects
+### Mendapatkan & Membuat Proyek
 
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Menginisialisasi repositori Git lokal |
 | `git clone ssh://git@github.com/[nama-pengguna]/[nama-repositori].git` | Membuat salinan lokal dari repositori remote |
 
-### Basic Snapshotting
+### Dasar-Dasar Snapshotting
 
 | Command | Description |
 | ------- | ----------- |
@@ -22,7 +19,7 @@ _List Pertintah Github Yang Biasa Di Gunakan_
 | `git commit -m "[pesan commit]"` | Melakukan commit terhadap perubahan |
 | `git rm -r [nama-file.txt]` | Menghapus sebuah file (atau folder) |
 
-### Branching & Merging
+### Pencabangan & Penggabungan
 
 | Command | Description |
 | ------- | ----------- |
@@ -42,7 +39,7 @@ _List Pertintah Github Yang Biasa Di Gunakan_
 | `git stash` | Sembunyikan perubahan pada direktori kerja yang kotor |
 | `git stash clear` | Hapus semua entri yang disimpan (stashed) |
 
-### Sharing & Updating Projects
+### Berbagi & Memperbarui Proyek
 
 | Command | Description |
 | ------- | ----------- |
@@ -55,7 +52,7 @@ _List Pertintah Github Yang Biasa Di Gunakan_
 | `git remote add origin ssh://git@github.com/[nama-pengguna]/[nama-repositori].git` | Tambahkan repositori remote |
 | `git remote set-url origin ssh://git@github.com/[nama-pengguna]/[nama-repositori].git` | Atur cabang origin repositori ke SSH |
 
-### Inspection & Comparison
+### Pemeriksaan & Perbandingan
 
 | Command | Description |
 | ------- | ----------- |
